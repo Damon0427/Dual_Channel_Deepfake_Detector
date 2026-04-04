@@ -1,0 +1,10 @@
+tensorflow
+mediapipe==0.10.33
+opencv-python
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+tqdm
