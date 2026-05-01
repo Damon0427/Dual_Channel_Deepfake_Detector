@@ -10,8 +10,18 @@ projectCheckPoint01/
 ├── DownloadScript/
 │   └── datasetScript.py                    
 ├── MediaPipeModel/
-│   └── blaze_face_short_range.tflite      
-├── Project_CheckPoint1.ipynb
+│   └── blaze_face_short_range.tflite
+├── report/   
+│   └── checkpoint2Report.pdf
+├── result/   
+│   └── Confusion Matrix.png
+│   └── ROC.png
+│   └── Performance_Matrix.png
+├── Checkpoint2Notebook.ipynb
+├── evaluate.py  
+├── models.py
+├── training.py
+├── preprocess.py
 ├── README.md
 └── Requiment.txt
 ```
@@ -20,7 +30,9 @@ projectCheckPoint01/
 - datasetScript.py                         # A download Script From FaceForensics++.
 - blaze_face_short_range.tflite            # A model from mediapipe documentation. https://ai.google.dev/edge/mediapipe/solutions/vision/face_detector
 - Requiment.txt                            # All of the require dependencies
-
+- evaluate.py,models.py, training.py, preprocess.py  # script for train,evaluate preprocess.
+- Result Folder included all of the plot. 
+- Github Restriced the file size, Unable to upload the model
 ```
 
 ## How to set up the environment & Run：
